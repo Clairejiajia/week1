@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Roboto&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -53,7 +52,7 @@ img {
 }
 
 body {
-  font-family: 'Noto Sans TC', 'Roboto', sans-serif;
+  font-family: 'PingFang TC', 'Microsoft JhengHei', 'sans-serif';
 }
 
 .container {
@@ -65,10 +64,11 @@ body {
   padding-top: 48px;
   padding-bottom: 24px;
   border-bottom: 2px solid #000;
-  margin-bottom: 60px;
+  margin-bottom: 48px;
 }
 
 .name h1 {
+  font-family: 'Andale Mono';
   color: #000;
   font-size: 80px;
   line-height: 90px;
@@ -84,18 +84,19 @@ body {
   align-items: center;
   border-bottom: 1px solid #000;
   margin-bottom: 16px;
-  padding-bottom: 5px;
-  font-weight: bold;
+  padding-bottom: 8px;
 }
 
 .subtitle h2 {
   font-size: 32px;
   line-height: 45px;
   color: #000;
-  margin-left: 6px;
+  font-weight: 500;
 }
 
 .subtitle p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 24px;
   color: #A00404;
   margin-left: 16px;
@@ -104,7 +105,7 @@ body {
 .subtitle.light {
   justify-content: center;
   border-bottom: 1px solid #fff;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .subtitle.light h2 {
@@ -135,6 +136,7 @@ body {
 }
 
 .content-list li p {
+  font-weight: 300;
   font-size: 24px;
   line-height: 36px;
   color: #000;
@@ -205,7 +207,7 @@ body {
   left: 50%;
   background: #415165;
   margin-left: -600px;
-  padding: 24px 102px;
+  padding: 24px 102px 56px;
 }
 
 .skill-banner .skill .skill-list {
@@ -216,6 +218,7 @@ body {
 }
 
 .skill-banner .skill .skill-list li {
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin-bottom: 16px;
   font-size: 24px;
@@ -231,10 +234,19 @@ body {
   margin-bottom: 72px;
 }
 
+.work .subtitle {
+  margin-bottom: 22px;
+}
+
 .work .content-list {
+  width: 642px;
   margin-left: 24px;
   padding-left: 24px;
-  border-left: 1px solid #000;
+  border-left: 1px solid #96A9C4;
+}
+
+.work .content-list .subtitle.light {
+  margin-bottom: 32px;
 }
 
 .work .content-list li {
@@ -246,7 +258,7 @@ body {
 }
 
 .work .content-list li p {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .work .content-list li img {
@@ -254,7 +266,7 @@ body {
 }
 
 .work .content-list li p.text {
-  font-weight: normal;
+  font-weight: 300;
   font-size: 20px;
   line-height: 30px;
 }
@@ -262,7 +274,7 @@ body {
 .footer {
   height: 400px;
   background-color: #415165;
-  padding: 30px 0;
+  padding: 24px 0 48px;
 }
 
 .footer .content-list li {
