@@ -47,6 +47,10 @@ table {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   display: block;
 }
@@ -68,7 +72,7 @@ body {
 }
 
 .name h1 {
-  font-family: 'Andale Mono';
+  font-family: 'Andale Mono', 'sans-serif';
   color: #000;
   font-size: 80px;
   line-height: 90px;
@@ -290,12 +294,21 @@ body {
   text-align: center;
 }
 
+.footer .content-list li p a {
+  color: inherit;
+}
+
 .footer .content-list li.sns {
   display: flex;
   justify-content: center;
 }
 
-.footer .content-list li.sns img {
+.footer .content-list li.sns a {
+  display: block;
   width: 48px;
   margin: 0 12px;
+}
+
+.footer .content-list li.sns a img {
+  width: 100%;
 }

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     display: block;
 }
@@ -26,7 +30,8 @@ body {
     margin-bottom: 48px;
 
     h1 {
-        font-family: 'Andale Mono';
+        font-family: 'Andale Mono', 'sans-serif';
+        ;
         color: #000;
         font-size: 80px;
         line-height: 90px;
@@ -45,7 +50,7 @@ body {
     border-bottom: 1px solid #000;
     margin-bottom: 16px;
     padding-bottom: 8px;
-   
+
 
     h2 {
         font-size: 32px;
@@ -244,7 +249,7 @@ body {
 .footer {
     height: 400px;
     background-color: #415165;
-    padding:24px 0 48px;
+    padding: 24px 0 48px;
 
     .content-list {
         li {
@@ -257,15 +262,23 @@ body {
             p {
                 color: #fff;
                 text-align: center;
+                a{
+                    color:inherit;
+                }
             }
 
             &.sns {
                 display: flex;
                 justify-content: center;
 
-                img {
+                a {
+                    display: block;
                     width: 48px;
                     margin: 0 12px;
+
+                    img {
+                        width:100%;
+                    }
                 }
             }
         }
