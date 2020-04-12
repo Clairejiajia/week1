@@ -249,10 +249,6 @@ body {
   border-left: 1px solid #96A9C4;
 }
 
-.work .content-list .subtitle.light {
-  margin-bottom: 32px;
-}
-
 .work .content-list li {
   margin-bottom: 32px;
 }
@@ -276,9 +272,12 @@ body {
 }
 
 .footer {
-  height: 400px;
   background-color: #415165;
   padding: 24px 0 48px;
+}
+
+.footer .subtitle.light {
+  margin-bottom: 32px;
 }
 
 .footer .content-list li {
@@ -306,6 +305,7 @@ body {
 .footer .content-list li.sns a {
   display: block;
   width: 48px;
+  height: 48px;
   margin: 0 12px;
 }
 

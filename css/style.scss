@@ -216,11 +216,7 @@ body {
         padding-left: 24px;
         border-left: 1px solid #96A9C4;
 
-        .subtitle {
-            &.light {
-                margin-bottom: 32px;
-            }
-        }
+        
 
         li {
             margin-bottom: 32px;
@@ -247,10 +243,14 @@ body {
 }
 
 .footer {
-    height: 400px;
+    
     background-color: #415165;
     padding: 24px 0 48px;
-
+    .subtitle {
+        &.light {
+            margin-bottom: 32px;
+        }
+    }
     .content-list {
         li {
             margin-bottom: 16px;
@@ -274,6 +274,7 @@ body {
                 a {
                     display: block;
                     width: 48px;
+                    height: 48px;
                     margin: 0 12px;
 
                     img {
